@@ -28,7 +28,7 @@ const About = () => {
           <h2 className="text-3xl font-bold text-center mb-12 gradient-text glow">About Me</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg mb-12 text-gray-300 text-center">
-              I'm an AI Research Scientist and graduate student, passionate about pushing the boundaries of artificial
+              I am an AI Research Scientist and graduate student, passionate about pushing the boundaries of artificial
               intelligence. My research focuses on deep learning models, graph neural networks, and multimodal AI
               applications in healthcare and scientific domains.
             </p>
