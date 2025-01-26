@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
+  basePath: "", // No basePath needed since it's served from the root
   images: {
-    unoptimized: true,
+    unoptimized: true, // Required for static export
   },
-}
+};
 
-module.exports = nextConfig
-
+module.exports = nextConfig;
